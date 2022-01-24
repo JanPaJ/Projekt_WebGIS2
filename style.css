@@ -1,0 +1,98 @@
+/* h1{
+    text-align: center;
+    background-color: brown;
+    border: solid red;
+} */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(153, 144, 130);
+}
+html{
+    scroll-behavior:smooth;
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(163, 162, 92);
+    font-family: 'Brush Script', cursive;
+}
+.main_img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 90%;
+    max-width: 90%;
+}
+.map_links{
+    height: 20%;
+    margin-top: 20px;
+}
+
+
+.map_link{
+    width: 100%;
+    float: left;
+    height: 90%;
+    margin-right: 2%;
+
+}
+
+.bot {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color:white;
+  }
+
+
+.describe {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+
+
+#map{
+    padding: 0;
+    margin: 0;
+    height: 80%;
+    width: 100%;
+}
+
+article{
+    height: 40%;
+}
+
+footer{
+    height: 20%;
+    background-color:rgb(126, 143, 106);
+    padding: 20px;
+}
+
+.btn{
+    width: 18%;
+    height: 90%;
+    margin-left: 1.40%;
+    display: inline-block;
+}
+dl{
+    margin-left: 10px;
+} 
+
+dt{
+    font-weight: bold;
+}
+
+footer { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+  }
+.git{
+    width: 20%;
+    height: 20%;
+} 
