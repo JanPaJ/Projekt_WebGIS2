@@ -39,15 +39,6 @@ h1{
 
 }
 
-.bot {
-    position: absolute;
-    bottom: 8px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 40px;
-    color:white;
-  }
-
 
 .describe {
     position: absolute;
@@ -78,6 +69,7 @@ footer{
     height: 90%;
     margin-left: 1.40%;
     display: inline-block;
+    background-color: brown;
 }
 dl{
     margin-left: 10px;
