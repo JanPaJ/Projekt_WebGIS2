@@ -23,7 +23,7 @@ h1{
     display: block;
     margin: 0 auto;
     max-height: 90%;
-    max-width: 90%;
+    max-width: 100%;
 }
 .map_links{
     height: 20%;
@@ -71,6 +71,15 @@ footer{
     display: inline-block;
     background-color: brown;
 }
+
+.btn:hover{
+   cursor: pointer;
+}
+
+.btn:active{
+    opacity: 0.7;
+ }
+
 dl{
     margin-left: 10px;
 } 

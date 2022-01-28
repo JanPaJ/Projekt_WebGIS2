@@ -20,7 +20,7 @@ require(["esri/Map",
             color: "red",
             width: "18px",
             height: "18px",
-            outline: {  // autocasts as new SimpleLineSymbol()
+            outline: { 
                 width: 1,
                 color: "white"
           }
